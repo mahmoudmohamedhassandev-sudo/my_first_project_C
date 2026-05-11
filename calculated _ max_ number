@@ -10,4 +10,5 @@ int main() {
  scanf("%lf",&num3);
  double result=fmax(fmax(num1,num2),num3);
  printf("max number is=%.3lf",result);
+return 0;
 }
