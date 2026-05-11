@@ -6,6 +6,7 @@ Doctors_dec={
     "Dr_nermen":"Maths",
     "Dr_shrif":"Cyber_security"
 }
+ 
  print(Doctors_dec.items())
  print(Doctors_dec.values())
  print(Doctors_dec.keys())
