@@ -1,5 +1,6 @@
 from tkinter import Tk, Label, Button, Text, END
 
+
 def convert_to_matrix(text):
     try:
         rows = text.strip().split("\n")
