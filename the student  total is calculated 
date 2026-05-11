@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main() {
+
 int grade;
 printf("Please Enter your grade:\n");
 scanf("%d",&grade);
