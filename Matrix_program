@@ -9,6 +9,7 @@ def convert_to_matrix(text):
     except:
         return []
 
+
 # جمع مصفوفتين
 def add():
     m1 = convert_to_matrix(text1.get("1.0", "end-1c"))
