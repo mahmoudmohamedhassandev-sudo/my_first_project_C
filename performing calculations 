@@ -1,0 +1,35 @@
+#include <stdio.h>
+  
+  int sum_number(int num1,int num2){
+return num1+num2;
+}
+int Sub_number(int num3,int num4){
+return num3-num4;
+}
+int multip_number(int num5,int num6){
+return num5*num6;
+}
+int div_number(int num7,int num8){
+return num7/num8;
+}
+ int Remain_number(int num9, int num10){
+  return num9%num10;   
+}
+//  void my_friend(){
+// printf("This is my best friends:\n");
+// printf("adel_helal\nomar_helal\nmohamed_osama\nAli_Al_Sharqawi\nayser_mohamed\nmazen_wail\n");    
+// }
+
+int main() {
+ 
+int result1=sum_number(15,20);
+printf( "%d\n",result1);    
+int result2=Sub_number(2250,1024);
+printf( "%d\n",result2);
+int result3=multip_number(350,2250);
+printf( "%d\n",result3);
+int result4=div_number(2048,2250);
+printf( "%d\n",result4);
+int result5=Remain_number(39456,2250);
+printf( "%d\n",result5);
+}
